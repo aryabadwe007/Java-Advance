@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/product/updateProduct" method="post">
+
+Product Name : <input type="text" name="pname" id="pname" value=${prod.pname}><br>
+Product Qty : <input type="text" name="qty" id="qty" value=${prod.qty}><br>
+Product Price : <input type="text" name="price" id="price" value=${prod.price}><br>
+Product Expdate : <input type="date" name="ldt" id="ldt" value=${prod.ldt} readonly><br>
+Product cid : <input type="text" name="cid" id="cid" value=${prod.cid}><br>
+<button type="submit" name="btn" id="update" value="update">Update Product</button>
+
+</form>
+</body>
+</html>
