@@ -1,0 +1,766 @@
+ 
+<mapping = “class “?”/>   ? here contains
+*
+···
+/1
+a. name of the dao class
+b. name of the Entity class
+ 
+c. name of the configuration file
+d. none of the above
+No correct answers
+ 
+How can we get context init parameter and run some code before rest of the application can service a client?
+*
+···
+/1
+1. ServletContextAttributeListener
+2. ServletContextListener
+ 
+3. HttpSessionListener
+4. All of these
+No correct answers
+ 
+   Which method of the servlet is/are called several times in its life? 
+
+*
+···
+/1
+1. init()
+2. doPost()
+ 
+3. destroy()
+4. None of above
+No correct answers
+ 
+Which interface provides methods to execute queries with the database?
+*
+···
+/1
+1. Connection interface
+2. Statement interface
+3. ResultSet interface
+ 
+4. None of the above
+No correct answers
+ 
+Which driver converts JDBC calls directly into the vendor-specific database protocol?
+*
+···
+/1
+1. Native-API driver
+ 
+2. Network Protocol driver
+3. Thin driver
+4. None of the above
+=====================================================================
+No correct answers
+ 
+doGet and doPost methods return
+*
+···
+/1
+a. int
+b. void
+ 
+c. String
+d. none of the above
+No correct answers
+ 
+Which of the following are tags of hibernate.cfg.xml?
+*
+···
+/1
+1. SQL variant to generate
+2. DTD
+3. JDBC connection
+4. All of the options
+ 
+No correct answers
+ 
+Which of the following is not a state of object in Hibernate?
+
+*
+···
+/1
+1. Attached
+ 
+2. Detached
+3. Persistent
+4. Transient
+No correct answers
+ 
+Which is Stereo Type Annotations?
+*
+···
+/1
+1.@Autowired
+2. @Controller
+ 
+3. @PreDestroy
+4. @Qualifier
+No correct answers
+ 
+In Hibernate when we give
+
+Xx = session.get(X.class, ?) here ? is
+
+*
+···
+/1
+a. tablename
+b. primary key value which is serial
+ 
+c. databasename
+d. none of the above
+No correct answers
+ 
+Name
+*
+···
+/1
+Anushka More
+ 
+ 
+Which is not application context?
+
+*
+···
+/1
+1. ClassPathXmlApplicationContext
+2. AnnotationApplicationContext
+ 
+3. WebApplicationContext
+4. WebPathXmlApplicationContext
+No correct answers
+ 
+In the following code spring will create which objects 
+@RestController
+
+public class UserController{
+
+@Autowired
+
+private UserService userService;
+
+}
+
+*
+···
+/1
+a. UserService object
+ 
+b. UserController object
+c. UserController object and UserService object
+d. none of the above
+No correct answers
+ 
+What is dirty checking in Hibernate?
+
+*
+···
+/1
+1. object state changes in order to synchronize the updated state with the database
+ 
+2. remove the dirty data from database.
+3. check the data when insert into database.
+4. None
+No correct answers
+ 
+Which is not DI?
+*
+···
+/1
+1. Setter Based DI
+ 
+2. Auto-wiring DI
+3. Both of the above
+4. None of the above.
+No correct answers
+ 
+Spring provides a factory that can export beans annotated with:- 
+
+*
+···
+/1
+1. javax.jws.WebService
+2. javax.jws.WebServiceProvider
+ 
+3. all of the mentioned
+4. none of the mentioned
+No correct answers
+ 
+to add a cookie, in the web application we need to use object of
+*
+···
+/1
+a. HttpServletRequest
+b. HttpSession
+c. HttpServletResponse
+d. HttpCookie
+ 
+No correct answers
+ 
+Which object is used to forward the request processing from one servlet to another? 
+
+*
+···
+/1
+1. ServeltContext
+2. ServletConfig
+3. RequestDispatcher
+ 
+4. ResponseDispatcher
+No correct answers
+ 
+The command to invoke some specific maven functionality in command line
+*
+···
+/1
+a. maven
+b. build
+ 
+c. mvn
+d. none of the above
+No correct answers
+ 
+What is the default scope of the beans?
+*
+···
+/1
+1. Prototype
+ 
+2. session
+3. Request
+4. Singleton
+No correct answers
+ 
+Isolation Levels Supported by Spring:- 
+
+*
+···
+/1
+1. DEFAULT
+ 
+2. READ COMMITTED
+3. READ UNCOMMITTED
+4. All of the mentioned
+No correct answers
+ 
+What is Spring MVC framework?
+
+*
+···
+/1
+1. Spring MVC framework is Model-Value-Class architecture and used to bind model data with values.
+2. The Spring web MVC framework provides model-view-controller architecture and ready components that can be used to develop flexible and loosely coupled web applications.
+ 
+3. Spring MVC framework is used for Transaction management for Web Applications.
+4. Spring MVC framework is used for AOP for Web Applications.
+No correct answers
+ 
+Which of the following is not a scope in jsp
+
+*
+···
+/1
+a. session
+b. request
+ 
+c. response
+d. page
+No correct answers
+ 
+In which file database table configuration is stored? 
+
+*
+···
+/1
+1. .dbm
+2. .hbm
+ 
+3. .ora
+4. .sql
+No correct answers
+ 
+Which Standard tag is used store data in the JavaBeans instance?
+*
+···
+/1
+1. <jsp:useBean>
+2. <jsp:setBean>
+3. <jsp:set>
+4. <jsp:setProperty>
+ 
+No correct answers
+ 
+What is no mode of autowiring?
+*
+···
+/1
+1. Autowiring by property name.
+2. Similar to byType, but type applies to constructor arguments.
+3. Default setting which means no autowiring and you should use explicit bean reference for wiring.
+ 
+4. Spring first tries to wire using autowire by constructor, if it does not work,Spring tries to autowire by byType.
+No correct answers
+ 
+What is bean in Spring? 
+*
+···
+/1
+1. A component
+2. An Object
+3. A class
+4. A container
+ 
+No correct answers
+ 
+Suppose you want to know each time request comes in, so that you can log it. Which listener is appropriate for that? 
+*
+···
+/1
+1. ServletContextAttributeListener
+2. ServletContextListener
+ 
+3. HttpSessionListener
+4. All of these
+No correct answers
+ 
+     Which of the following is not true for servlet? 
+
+*
+···
+/1
+1. It is persistent
+2. Platform independent
+3. It is multi threaded
+4. It is single threaded
+ 
+No correct answers
+ 
+PRN
+*
+···
+/1
+250845920008
+ 
+ 
+How to handle shut down of IoC container?
+*
+···
+/1
+1. Using shutdownHook()
+2. Using shutdownHandler()
+3. Using registerHook()
+4. Using registerShutdownHook()
+ 
+No correct answers
+ 
+What are the method of Methods of PreparedStatement interface?
+*
+···
+/1
+1. public void setInt()
+2. public void setDouble()
+3. public ResultSet executeQuery()
+ 
+4. public void setFloat()
+No correct answers
+ 
+org.hibernate.SessionFactory can manage contextual sessions and allows to retrieve them by:- 
+*
+···
+/1
+1. getSession() method
+2. getCurrent() method
+3. getCurrentSession() method
+4. None of the above
+ 
+No correct answers
+ 
+Which of the following method can be used to used to instantiate a method?
+*
+···
+/1
+1. static factory method
+ 
+2. default-init method
+3. destroy method
+4. lazy-init method
+No correct answers
+ 
+Suppose you want to know each time request comes in, so that you can log it. Which listener is appropriate for that?
+*
+···
+/1
+1. ServletRequestListener
+ 
+2. ServletRequestAttributeListener
+3. ServletContextListener
+4. HttpRequestListener
+No correct answers
+ 
+*
+···
+/1
+Option 1
+ 
+No correct answers
+ 
+Spring’s core transaction management abstraction is based on the interface _________ 
+*
+···
+/1
+1. TransactionManager
+ 
+2. PlatformTransactionManager
+3. PlatformManager
+4. PlatformTransaction
+No correct answers
+ 
+@GetMapping and @PostMapping annotations used on 
+
+*
+···
+/1
+a. functions
+ 
+b. class
+c. variables
+d. none of the above
+No correct answers
+ 
+@GetMapping(“/startPage”)
+
+public ModelAndView pocExample() {
+
+ModelAndView modelAndView = new ModelAndView(“X”);
+
+ModelAndView.addObject(“y”,”z”);
+
+Return modelAndView;
+
+}
+
+Suppose x is jsp, the preferred way to read the y value in the jsp y using
+
+*
+···
+/1
+a. custom tags
+b. scriplets
+c. directives
+ 
+d. actions
+No correct answers
+ 
+What is @Controller annotation?
+*
+···
+/1
+1. The @Controller annotation indicates that a particular class serves the role of a controller. 2. The @Controller annotation indicates how to control the transaction management.
+ 
+3. The @Controller annotation indicates how to control the dependency injection.
+4. The @Controller annotation indicates how to control the aspect programming.
+No correct answers
+ 
+Which of these simplifies an Object Relational Mapping tool?
+
+*
+···
+/1
+1. Data creation
+2. Data manipulation
+3. Data access
+4. All mentioned above
+ 
+No correct answers
+ 
+In the elements of Hibernate architecture is a factory of session and client of ConnectionProvider, It holds the second level cache (optional) of data is _____.
+*
+···
+/1
+1. Session
+2. ConnectionProvider
+3. Transaction
+4. SessionFactory
+ 
+No correct answers
+ 
+The method getWriter returns an object of type PrintWriter. This class has println methods to generate output. Which of these classes define the getWriter method? 
+
+*
+···
+/1
+1. HttpServletRequest
+ 
+2. HttpServletResponse
+3. ServletConfig
+4. ServletContext
+No correct answers
+ 
+Test, compile, verify in maven are called as 
+*
+···
+/1
+a. phases
+b. goals
+ 
+c. lifecycle
+d. none of the above
+No correct answers
+ 
+the configuration file used to set proxy information, in maven is called as 
+*
+···
+/1
+a. pom.xml
+b. settings.xml
+ 
+c. proxy.xml
+d. none of the above
+No correct answers
+ 
+The function present in CommandLineRunner interface in spring is
+*
+···
+/1
+a. run
+ 
+b. runner
+c. runTask
+d. none of the above
+No correct answers
+ 
+In which of these getAttibute() and setAttribute() method has defined? 
+
+*
+···
+/1
+1. HttpSession
+ 
+2. ServletRequest
+3. ServletContext
+4. All of these
+No correct answers
+ 
+which of the following is true for postman
+*
+···
+/1
+a. postman is used to test web services
+b. postman is tool used to test our database queries
+ 
+c. postman is tool used to test css and html
+d. none of the above
+No correct answers
+ 
+ Factory to use our Spring bean as the implementation:-
+*
+···
+/1
+1. jaxws:end
+2. jaxws:endpoint
+3. all of the mentioned
+ 
+4. none of the mentioned
+No correct answers
+ 
+Which of the following method can be used to used to instantiate a method?
+*
+···
+/1
+1. static factory method
+ 
+2. default-init method
+3. destroy method
+4. lazy-init method
+No correct answers
+ 
+to handle 404 in jee web application of jee, we configure the file
+*
+···
+/1
+a. http.xml
+b. 404.xml
+c. web.xml
+ 
+d. none of the above
+No correct answers
+ 
+Which of the following element is used to represent one-to-one relationship in hibernate?
+*
+···
+/1
+1. many-to-one
+2. many-one
+3. ManyToOne
+4. None of the above
+ 
+No correct answers
+ 
+Which method is used to save or update the state of the given instance from the underlying database? 
+*
+···
+/1
+1. session.update()
+2. session.keep()
+3. session.saveOrUpdate()
+ 
+4. session.Load()
+No correct answers
+ 
+Which of the following are the valid scopes in JSP?
+
+*
+···
+/1
+1. request, page, context, application
+2. response, page, session, application
+ 
+3. request, page, session, global
+4. request, page, session, application
+No correct answers
+ 
+Element used to specify access attributes for bean’s methods.
+
+*
+···
+/1
+1. security:spring
+2. security:intercept-security
+ 
+3. security:intercept
+4. security:protect
+No correct answers
+ 
+Which ways are used by the Log4j and Logback frameworks in hibernate framework to support logging?
+*
+···
+/1
+1. By log4j.xml file
+2. By log4j.properties
+ 
+3. Both of above
+4. None of the above
+No correct answers
+ 
+Which of the following is correct about messaging in RESTful web services
+*
+···
+/1
+1. A client sends a message in form of a HTTP Request and server responds in form of a HTTP Response.
+ 
+2. These messages contain message data and metadata i.e. information about message itself.
+3. Both of the above
+4. None of the above.
+
+answers
+<mapping class=" ? "/> → b. name of the Entity class
+
+Get context init parameter & run code before app serves client → 2. ServletContextListener
+
+Method called several times in servlet life → 2. doPost() (also doGet, but not listed)
+
+Interface to execute database queries → 2. Statement interface
+
+JDBC driver converting calls directly to vendor DB protocol → 3. Thin driver
+
+doGet() and doPost() return → b. void
+
+Tags of hibernate.cfg.xml → 4. All of the options
+
+Not a Hibernate object state → 1. Attached
+
+Stereotype annotation → 2. @Controller
+
+session.get(X.class, ?) → b. primary key value
+
+Not an ApplicationContext → 4. WebPathXmlApplicationContext
+
+Objects created by Spring → c. UserController object and UserService object
+
+Dirty checking in Hibernate → 1. object state changes synchronized with DB
+
+Which is not DI → 4. None of the above
+
+Spring factory can export beans annotated with → 3. all of the mentioned
+
+To add a cookie → c. HttpServletResponse
+
+Forward request to another servlet → 3. RequestDispatcher
+
+Maven command → c. mvn
+
+Default bean scope → 4. Singleton
+
+Isolation levels supported by Spring → 4. All of the mentioned
+
+Spring MVC framework → 2. MVC architecture for flexible, loosely coupled web apps
+
+Not a JSP scope → c. response
+
+Database table configuration stored in → 2. .hbm
+
+JSP tag to store data in JavaBean → 4. <jsp:setProperty>
+
+No mode of autowiring → 3. Default setting (no autowiring)
+
+Bean in Spring → 2. An Object
+
+Listener to know when request comes in → 4. All of these (as per given options)
+
+Not true for servlet → 4. It is single threaded
+
+Handle shutdown of IoC container → 4. registerShutdownHook()
+
+PreparedStatement methods → All listed (1,2,3,4)
+
+Retrieve contextual session → 3. getCurrentSession()
+
+Instantiate using method → 1. static factory method
+
+Listener for each request → 1. ServletRequestListener
+
+Spring transaction abstraction → 2. PlatformTransactionManager
+
+@GetMapping and @PostMapping used on → a. functions
+
+Preferred way to read y in JSP → a. custom tags (EL/JSTL)
+
+@Controller annotation → 1. Serves role of controller
+
+ORM simplifies → 4. All mentioned above
+
+Factory of session & second-level cache → 4. SessionFactory
+
+getWriter() defined in → 2. HttpServletResponse
+
+Test, compile, verify in Maven → a. phases
+
+Maven proxy configuration file → b. settings.xml
+
+Method in CommandLineRunner → a. run
+
+getAttribute() & setAttribute() defined in → 4. All of these
+
+Postman is used to → a. test web services
+
+Factory to use Spring bean as implementation → 2. jaxws:endpoint
+
+Instantiate using method → 1. static factory method
+
+Handle 404 in JEE → c. web.xml
+
+One-to-one relationship in Hibernate → 4. None of the above
+
+Save or update instance → 3. session.saveOrUpdate()
+
+Valid JSP scopes → 4. request, page, session, application
+
+Element for access attributes of bean methods → 2. security:intercept-security
+
+Logging support in Hibernate → 3. Both of above
+
+Messaging in RESTful web services → 3. Both of the above
